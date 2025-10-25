@@ -1,0 +1,16 @@
+<h3>Lista de Tarefas</h3>
+
+@if (tarefas.length === 0) {
+    <p class="text-muted">Nenhuma tarefa cadastrada</p>
+} @else {
+     <ul class="list-group" style="max-width: 620px">
+        @for (tarefas; track ngId){
+            <li class="list-group-item d-Flex justify-content-between align-items-center">
+                <div>
+                    <strong>{{ tarefas.titulo }}</strong>
+                    <small class ="texte-muted d-block"></small>
+                </div>
+            </li>
+        }
+     </ul>
+}

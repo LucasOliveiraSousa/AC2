@@ -1,0 +1,22 @@
+.azul{
+    background-color: lightblue;
+}
+
+.vermelha{
+    background-color: lightcoral;
+}
+
+.verde{
+    background-color: lightgreen;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+}

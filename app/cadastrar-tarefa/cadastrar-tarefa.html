@@ -1,0 +1,7 @@
+<h3>Cadastrar Tarefa</h3>
+
+<form (ngSubmit)="cadastrar()" class="d-grid gap-2" style="max-width:420px">
+    <imput class="form-control" [(ngModel)]="titulo" name="titulo" placeholder="Titulo" required></imput>
+    <imput class="form-control" [(ngModel)]="data" name="prazo" placeholder="Prazo" required></imput>
+    <button class="btn btn-sucess" type="submit">Salvar</button>
+</form>
